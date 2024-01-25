@@ -1,46 +1,33 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NFT Floor Price Statistics
 
-## Available Scripts
+This project is mainly created to learn [Mantine](https://mantine.dev). The main goal of the app is to be able to track certains Solana NFT Collections in order to get some statistics about the floor price at different stages and know the value of your assets.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Those features are in progress but the main goal is to have them all availables
 
-### `npm test`
+- [ ]  Add collections to the track list
+- [ ]  Add the amount of NFTs from a collection that you hold
+- [ ]  Get floor price and your assets value at Minting time, 30min post-mint, 1h post-mint, 12h post-mint, 24h post-mint, 5 days post-mint, 30 days post-mint 
+- [ ]  Mobile friendly
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To deploy this project run
 
-### `npm run eject`
+```bash
+  WIP
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ - [The 76 Devs](https://discord.gg/jqJMNpZVTN)
+ - [Beeman](https://github.com/beeman)
+ - [Solana Collective](https://discord.gg/solanacollective)
