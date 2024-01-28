@@ -1,6 +1,7 @@
 import { Title, Text, Container, Grid, Image } from '@mantine/core';
 import { useState } from 'react';
 import FloorHistory from './FloorHistory';
+import '../Styles/SectionTwo.scss';
 
 const SectionTwo = () => {
     //const theme = useMantineTheme();

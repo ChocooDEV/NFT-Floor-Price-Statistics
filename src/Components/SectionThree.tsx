@@ -1,4 +1,5 @@
 import { Grid, Text, Container, Title, Image, Button } from '@mantine/core';
+import '../Styles/SectionThree.scss';
 
 const SectionThree = () => {
     //const theme = useMantineTheme();

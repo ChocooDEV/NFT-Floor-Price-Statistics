@@ -1,6 +1,7 @@
 import { Table, CloseButton, Container, Group, Select, Button} from '@mantine/core';
 import { useState, useEffect } from 'react';
 import Cookies from 'js-cookie';
+import '../Styles/FloorHistory.scss';
 
 const FloorHistory = () => {
 /* --------------------------- useState ------------------------------ */
@@ -94,7 +95,7 @@ const FloorHistory = () => {
           >Add to watchlist</Button>
       </Group>
       <div style={{ overflowX: 'auto', maxWidth: '100%' }}>
-        <Table highlightOnHover withBorder style={{marginTop: '15px', borderColor: '#8a2be2', borderWidth: '3px'}}>
+        <Table withBorder style={{marginTop: '15px', borderColor: '#8a2be2', borderWidth: '3px'}}>
             <thead>{tableElement}</thead>
             <tbody>{rows}</tbody>
         </Table>

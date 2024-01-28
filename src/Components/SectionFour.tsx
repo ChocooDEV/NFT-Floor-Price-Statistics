@@ -1,4 +1,5 @@
 import { useMantineTheme, Container, Text, Title, Grid, Card, Image, Badge, Button, Group } from '@mantine/core';
+import '../Styles/SectionFour.scss';
 
 const SectionFour = () => {
     const theme = useMantineTheme();
