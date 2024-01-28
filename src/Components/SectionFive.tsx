@@ -16,21 +16,21 @@ const SectionFive = () => {
                 </div>
 
                 <Accordion variant="contained">
-                    <Accordion.Item value="item1" className="accordion-item" style={{borderColor: '#8a2be2', borderWidth: '2px', backgroundColor: 'rgba(138, 43, 226, 0.1)'}}>
+                    <Accordion.Item value="item1" className="accordion-item" style={{borderColor: '#8a2be2', borderWidth: '2px'}}>
                         <Accordion.Control icon={<FiAnchor size={20} color={"#8a2be2"} />}>
                             Where comes the data from?
                         </Accordion.Control>
                         <Accordion.Panel>Every data is coming directly from Tensor API</Accordion.Panel>
                     </Accordion.Item>
 
-                    <Accordion.Item value="item2" className="accordion-item" style={{borderColor: '#8a2be2', borderWidth: '2px', backgroundColor: 'rgba(138, 43, 226, 0.1)'}}>
+                    <Accordion.Item value="item2" className="accordion-item" style={{borderColor: '#8a2be2', borderWidth: '2px'}}>
                         <Accordion.Control icon={<FiPrinter size={20} color={"#8a2be2"} />}>
                             Is this app free to use?
                         </Accordion.Control>
                         <Accordion.Panel>Definetly! However if you feel like tipping, you're welcome to do it at chocoo.sol</Accordion.Panel>
                     </Accordion.Item>
 
-                    <Accordion.Item value="item3" className="accordion-item" style={{borderColor: '#8a2be2', borderWidth: '2px', backgroundColor: 'rgba(138, 43, 226, 0.1)'}}>
+                    <Accordion.Item value="item3" className="accordion-item" style={{borderColor: '#8a2be2', borderWidth: '2px'}}>
                         <Accordion.Control icon={<FiPhoneCall size={20} color={"#8a2be2"} />}>
                             How can I contact you?
                         </Accordion.Control>
