@@ -30,4 +30,5 @@ To deploy this project run
 
  - [The 76 Devs](https://discord.gg/jqJMNpZVTN)
  - [Beeman](https://github.com/beeman)
+ - [Giuseppe Del Campo](https://github.com/Giuseppetm)
  - [Solana Collective](https://discord.gg/solanacollective)
