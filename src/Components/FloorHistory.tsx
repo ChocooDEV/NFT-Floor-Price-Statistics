@@ -1,6 +1,5 @@
 import { Table, CloseButton, Container, Group, Select, Button} from '@mantine/core';
 import { useState, useEffect } from 'react';
-import Cookies from 'js-cookie';
 import '../Styles/FloorHistory.scss';
 
 const FloorHistory = () => {
@@ -23,12 +22,12 @@ const FloorHistory = () => {
   const removeRow = (name: string) => {
     const updatedElements = elements.filter((element) => element.name !== name);
     setElements(updatedElements);
-    Cookies.set('elements', JSON.stringify(updatedElements));
+    localStorage.setItem('elements', JSON.stringify(updatedElements));
   };
   
   // Function to load elements from cookie on component mount
   useEffect(() => {
-    const storedElements = Cookies.get('elements');
+    const storedElements = localStorage.getItem('elements');
     if (storedElements) {
       setElements(JSON.parse(storedElements));
     }
@@ -44,7 +43,7 @@ const FloorHistory = () => {
       };
       const updatedElements = [...elements, newElement];
       setElements(updatedElements);
-      Cookies.set('elements', JSON.stringify(updatedElements));
+      localStorage.setItem('elements', JSON.stringify(updatedElements));
     }
   };
 
